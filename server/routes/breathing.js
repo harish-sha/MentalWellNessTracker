@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { logSession, getStats } = require('../controllers/BreathingController');
+const { logSession, getStats } = require('../controllers/breathingController');
 
 // Fake User Middleware
 const mockUser = (req, res, next) => {
