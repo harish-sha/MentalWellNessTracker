@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { createEntry, getEntries, getTodayEntry, getStats, getCalendarData } = require('../controllers/entriescontroller');
+const { createEntry, getEntries, getTodayEntry, getStats, getCalendarData } = require('../controllers/entriesController.js');
 
 // Fake User Middleware so the database doesn't crash without a login
 const mockUser = (req, res, next) => {
