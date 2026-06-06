@@ -1,5 +1,5 @@
 const express = require('express');
-const { getAchievements } = require('../controllers/Achievementscontroller');
+const { getAchievements } = require('../controllers/achievementsController');
 const router = express.Router();
 // NOTE: Add your authentication middleware here once created (e.g., protect)
 // For now, we stub a mock user to avoid crashing your controller request
